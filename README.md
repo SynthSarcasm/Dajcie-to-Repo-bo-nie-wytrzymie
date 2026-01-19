@@ -2,6 +2,16 @@
 
 Aplikacja została zaprojektowana z myślą o maksymalnej wydajności przy minimalnych kosztach.
 
+## 🌐 Dostęp Online
+
+Aplikacja jest dostępna pod adresem: **https://synthsarcasm.github.io/Dajcie-to-Repo-bo-nie-wytrzymie/**
+
+Możesz udostępnić ten link komukolwiek, aby mógł od razu korzystać z aplikacji w przeglądarce.
+
+### Automatyczne wdrożenie
+
+Aplikacja jest automatycznie wdrażana na GitHub Pages po każdym pushu do gałęzi `main`. Konfiguracja wdrożenia znajduje się w pliku `.github/workflows/deploy.yml`.
+
 ## Wykorzystanie AI
 Wszystkie funkcje inteligentne w aplikacji (transkrypcja, automatyczne tytuły, podsumowania, ekstrakcja zadań) korzystają z modelu:
 **`gemini-flash-lite-latest`**
