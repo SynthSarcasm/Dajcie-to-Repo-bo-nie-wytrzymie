@@ -12,6 +12,23 @@ Możesz udostępnić ten link komukolwiek, aby mógł od razu korzystać z aplik
 
 Aplikacja jest automatycznie wdrażana na GitHub Pages po każdym pushu do gałęzi `main`. Konfiguracja wdrożenia znajduje się w pliku `.github/workflows/deploy.yml`.
 
+### Jak włączyć GitHub Pages (dla administratorów repozytorium)
+
+Aby aplikacja była dostępna publicznie, należy włączyć GitHub Pages w ustawieniach repozytorium:
+
+1. Przejdź do repozytorium na GitHub
+2. Kliknij **Settings** (Ustawienia)
+3. W menu bocznym wybierz **Pages**
+4. W sekcji **Source** wybierz **GitHub Actions**
+5. Po zmergowaniu zmian do gałęzi `main`, workflow automatycznie zbuduje i wdroży aplikację
+6. Po zakończeniu wdrożenia, link będzie dostępny pod adresem: `https://[username].github.io/[repo-name]/`
+
+### Konfiguracja API Key
+
+Aby korzystać z funkcji AI (transkrypcja, automatyczne tytuły), użytkownicy muszą:
+1. Uzyskać darmowy klucz API z [Google AI Studio](https://makersuite.google.com/app/apikey)
+2. Wprowadzić klucz w ustawieniach aplikacji (ikona koła zębatego)
+
 ## Wykorzystanie AI
 Wszystkie funkcje inteligentne w aplikacji (transkrypcja, automatyczne tytuły, podsumowania, ekstrakcja zadań) korzystają z modelu:
 **`gemini-flash-lite-latest`**
