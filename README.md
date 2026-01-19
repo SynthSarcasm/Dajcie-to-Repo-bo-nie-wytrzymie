@@ -1,11 +1,12 @@
-<div align="center">
+# VoxPro - Notatki Głosowe AI
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+Aplikacja została zaprojektowana z myślą o maksymalnej wydajności przy minimalnych kosztach.
 
-  <h1>Built with AI Studio</h2>
+## Wykorzystanie AI
+Wszystkie funkcje inteligentne w aplikacji (transkrypcja, automatyczne tytuły, podsumowania, ekstrakcja zadań) korzystają z modelu:
+**`gemini-flash-lite-latest`**
 
-  <p>The fastest path from prompt to production with Gemini.</p>
-
-  <a href="https://aistudio.google.com/apps">Start building</a>
-
-</div>
+### Dlaczego ten model?
+1. **Absolutnie najniższe koszty**: Jest to model typu "Lite", zoptymalizowany pod kątem ekonomii i lekkości przy zachowaniu wysokiej jakości transkrypcji.
+2. **Największy darmowy limit**: Modele Lite oferują zazwyczaj najszerszy zakres darmowych zapytań w ramach Google AI Studio (Free Tier), co czyni aplikację dostępną dla każdego.
+3. **Ekstremalna szybkość**: Przetwarzanie danych odbywa się błyskawicznie, co jest kluczowe dla komfortu pracy z głosem.

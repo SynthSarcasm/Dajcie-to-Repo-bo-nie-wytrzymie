@@ -1,0 +1,7 @@
+{
+  "name": "Notatki Głosowe Pro",
+  "description": "Intuicyjna aplikacja do notatek w trybie ciemnym z zaawansowanym dyktafonem i automatyczną transkrypcją w języku polskim wspieraną przez AI.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
